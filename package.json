@@ -1,0 +1,33 @@
+{
+  "name": "leetcode-js",
+  "version": "0.0.2",
+  "description": "Leetcode with javascript",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover --dir .cov _mocha test; echo .cov/lcov-report/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Bingmang/leetcode-js.git"
+  },
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "Bingmang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bingmang/leetcode-js/issues"
+  },
+  "homepage": "https://github.com/Bingmang/leetcode-js#readme",
+  "dependencies": {
+    "require-glob": "^3.2.0"
+  },
+  "devDependencies": {
+    "istanbul-harmony": "^0.3.16",
+    "mocha": "^3.5.3"
+  }
+}
